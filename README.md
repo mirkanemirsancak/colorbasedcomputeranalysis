@@ -1,4 +1,4 @@
-# colorbasedcomputeranalysis
+# A Novel Method to Determine Total Oxidant Concentration Produced by Non-Thermal Plasma: Image Processing-Based Machine Learning
 This repository contains the code and data for machine learning-assisted total oxidant concentration estimation using image processing.
 
 ## Project Description
