@@ -23,39 +23,31 @@ pip install -r requirements.txt
 ## Follow the steps in the Jupyter Notebook to reproduce the results.
 
 ## Usage Instructions
-Run the provided Jupyter Notebook to process images and extract colorimetric features.
-Train ML models using the extracted features.
-Evaluate model performance using R², MSE, and MAE metrics.
-Compare results with standard KI method data.
+- Run the provided Jupyter Notebook to process images and extract colorimetric features.
+- Train ML models using the extracted features.
+- Evaluate model performance using R², MSE, and MAE metrics.
+- Compare results with standard KI method data.
 
 ## Dataset Information
-
 Users can either utilize the dataset included in the repository or create their own using the same methodology.
 
-## Model Information
-The NTP system was used to generate RONS, inducing color changes in a KI solution.
-The image acquisition system comprises a Raspberry Pi 4 Model B and a Raspberry Pi Camera Module V2.
-Various ML models were trained on extracted color features for concentration determination.
-
 ## Results & Performance
-YOLOv8 segmentation demonstrated high accuracy (confidence scores: 0.9648 to 0.9938).
-LaR exhibited the best performance with R² = 0.9966, MSE = 0.0946, and MAE = 0.3038.
-Correlation analysis identified G (RGB), S (HSV), and L and A (LAB) channels as the most predictive features.
-Feature selection improved ML model accuracy, with Lasso Regression performing the best.
+- YOLOv8 segmentation demonstrated high accuracy (confidence scores: 0.9648 to 0.9938).
+- LaR exhibited the best performance with R² = 0.9966, MSE = 0.0946, and MAE = 0.3038.
+- Correlation analysis identified G (RGB), S (HSV), and L and A (LAB) channels as the most predictive features.
+- Feature selection improved ML model accuracy, with Lasso Regression performing the best.
 
 ## License
-
 This repository is licensed under the MIT License.
 
 ## Contributors
 
-Mirkan Emir Sancak (Department of Environmental Engineering, Gebze Technical University) - (mailto:mrkn.sancak@gmail.com)
-Unal Sen (Department of Environmental Engineering, Gebze Technical University)
-Ulker Diler Keris-Sen (Institute of Earth and Marine Sciences, Gebze Technical University)
+- Mirkan Emir Sancak (Department of Environmental Engineering, Gebze Technical University) - (mailto:mrkn.sancak@gmail.com)
+- Unal Sen (Department of Environmental Engineering, Gebze Technical University)
+- Ulker Diler Keris-Sen (Institute of Earth and Marine Sciences, Gebze Technical University)
 
 ## Future Work & Contributions
-
 This study demonstrates the potential of ML-assisted image processing for colorimetric analysis. Future research will focus on:
-Reducing computational costs for real-time applications.
-Expanding the methodology to analyze other chemical parameters (e.g., pH, H₂O₂, total hardness).
-Optimizing ML models for improved generalization.
+- Reducing computational costs for real-time applications.
+- Expanding the methodology to analyze other chemical parameters (e.g., pH, H₂O₂, total hardness).
+- Optimizing ML models for improved generalization.
