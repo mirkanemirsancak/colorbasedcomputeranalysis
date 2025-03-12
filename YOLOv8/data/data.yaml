@@ -1,0 +1,6 @@
+path: /content/drive/MyDrive/visual titration/v2/yolo/data
+train: train/images
+val: valid/images
+
+nc: 1  # Number of classes
+names: ['colored_area']  # Class names
